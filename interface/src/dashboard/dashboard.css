@@ -1,0 +1,103 @@
+.sidebar {
+  float: left;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 21%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111827;
+  position: sticky !important;
+}
+.sideNav {
+  width: 100%;
+}
+/* .tableData p {
+  
+} */
+.tableData {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  vertical-align: top;
+}
+.tableImage {
+  width: 6rem !important;
+  height: 4rem !important;
+  margin-left: 1rem !important;
+}
+.tableContainer {
+  height: 450px !important;
+}
+
+.logout {
+  margin-bottom: 3rem !important;
+  margin-top: 12rem;
+}
+@media screen and (max-width: 1320px) {
+  .sidebar {
+    width: 20% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    flex: 1 !important;
+    background-color: yellow !important;
+  }
+  #header {
+    width: 80% !important;
+    background-color: blue !important   ;
+  }
+}
+.logout {
+  margin-bottom: 4.5rem !important;
+  margin-top: 12rem;
+}
+#tableHead {
+  font-weight: bold !important;
+}
+@media screen and (max-width: 640px) {
+  .sidebar {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    flex: 1 !important;
+    overflow-x: hidden !important;
+    background-color: yellow !important;
+    position: relative !important;
+  }
+  .sideNavItem {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    flex: 1 !important;
+  }
+
+  #header {
+    width: 100% !important;
+    background-color: blue !important   ;
+  }
+  .table {
+    width: "100%";
+  }
+  .tableContainer {
+  }
+  .heading {
+    margin: 2rem !important;
+  }
+  #tableHead {
+    padding: 1rem !important;
+    margin: 0 !important;
+    width: auto !important;
+  }
+  .tableContainer {
+    height: 400px !important;
+  }
+  #tableRow {
+  }
+  .logout {
+    margin-bottom: 1rem !important;
+    margin-top: 1rem;
+  }
+}

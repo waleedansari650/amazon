@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+.review_section {
+  position: relative;
+  top: 5rem !important;
+  width: 95%;
+  height: 100vh;
+  margin-bottom: 10rem;
+  margin-left: 1rem;
+}
+
+.review_container {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  padding: 50px 0px;
+}
+.left_container,
+.right_container {
+  display: flex;
+  flex-direction: column;
+}
+.left_container {
+  flex: 1 !important;
+}
+.right_container {
+  height: 60vh;
+  width: 60vw;
+}
+.your_order {
+  margin-top: 3rem;
+  overflow-y: scroll;
+}
+.sub_item {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sub_item h3 {
+  font-weight: 500;
+  margin: 10px 0;
+}
+.review_orders {
+  font-weight: bold;
+  font-size: 2.5rem;
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(20, 14, 61);
+}
+.review_container .methods {
+  font-weight: bold;
+  color: rgb(20, 14, 61);
+  margin: 0.5rem;
+}
+.review_container .shopping_address {
+  margin: 1rem 2rem;
+}
+.user_detail {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", "Gill Sans",
+    "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1rem;
+  color: rgb(148, 145, 145);
+}
+.grid_image {
+  width: 8vw !important;
+  margin-bottom: 1rem;
+}
+.grid_title {
+  font-size: 1.2rem;
+}
+.grid_description {
+  font-size: 1rem;
+}
+.review_order_title {
+  color: black;
+}
+.review_order_info {
+  margin-left: 1rem;
+}
+@media (max-width: 768px) {
+  .review_container {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0px;
+  }
+  .left_container {
+    flex: 1 !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .review_container .shopping_address {
+    margin: 1rem 0;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 4rem;
+  }
+  .review_container .methods {
+    align-items: flex-start;
+    margin: 0;
+
+    font-size: 1.5rem;
+  }
+  .user_detail {
+    font-size: 1rem;
+  }
+  .card_number {
+    margin: 1rem;
+  }
+  .right_container {
+    height: 60vh;
+    width: 80vw;
+  }
+  .methods .orders_heading {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+  }
+  .grid_container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  .grid_title {
+    font-size: 1rem;
+  }
+  .grid_description {
+    font-size: 0.6rem;
+  }
+  .your_order {
+  }
+}
